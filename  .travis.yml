@@ -14,3 +14,5 @@ notifications:
       - brokilone@yandex.ru
     on_success: always # default: change
     on_failure: always # default: always
+
+script: mvn test -B
